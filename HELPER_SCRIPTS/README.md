@@ -68,6 +68,7 @@ SLICE_Y_0p9144_BINS03_KS_1mm_FINAL_LAYER_ICE_SHAPE
 | `-normal` | Normal vector of the slicing plane. For a constant-`y` slice, use `0.0 1.0 0.0`. |
 | `-pos` | Slice location or list of slice locations along the selected axis. |
 | `-tecplotFiles` | Input Tecplot-readable file, usually a CGNS surface file. |
+| `-cleanSolution` | Input Tecplot-readable file for providing HTC on the clean (no roughness applied) geometry. |
 | `-output` | Output `.dat` file. |
 | `--ipw3_CUTDATA` | Write the output using the IPW3 cut-data variable list. |
 | `--ipw3_ICE_SHAPE` | Write the output using the IPW3 ice-shape variable list. |
