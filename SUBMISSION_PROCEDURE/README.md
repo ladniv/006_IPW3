@@ -34,7 +34,12 @@ If your name or organization is not listed and you wish to submit results, pleas
 
 ## Repository structure
 
- The `000_TEMPLATE_SUBMISSION` folder contains the template files and folder structure that participants should copy and rename for their own submission.
+The repository includes:
+
+- `000_TEMPLATE_SUBMISSION`: template files and folder structure that participants should copy and rename for their own submission.
+- `HELPER_SCRIPTS`: helper scripts for preparing submission files.
+- `SUBMISSION_PROCEDURE`: instructions for submitting data through GitHub.
+- `POST_PROCESS_TOOLS`: planned tools for checking participant submission data.
 
 ---
 
@@ -94,7 +99,7 @@ Participants should download `.zip` version of the repository from:
 
 <img src="figures/DOWNLOAD_FOLDER.png" alt="Download the .zip version of the repository" width="900">
 
-Participants should then copy the submission structure from the template folder:
+Now, locally on their workstation, participants should extract the downloaded `.zip` file and copy the submission structure from the template folder:
 
 ```text
 000_TEMPLATE_SUBMISSION
@@ -131,10 +136,10 @@ PID_ORGNAME_SOLVERNAME/
 ├── TC_NACA0012_AE3932_D01/
 ├── TC_NACA0012_AE3933_D01/
 ├── TC_ONERAM6_D01/
-└── gridConvergence.xlsx
+└── gridConvergence_V1.xlsx
 ```
 
-The `gridConvergence.xlsx` file is used for all grid-convergence-related quantities. Participants should fill in the requested values without changing the sheet names, column order, row order, or file structure.
+The `gridConvergence_V1.xlsx` file is used for all grid-convergence-related quantities. Participants should fill in the requested values without changing the sheet names, column order, row order, or file structure.
 
 Each test-case folder contains Tecplot-formatted `.dat` files for cut data and ice-shape data. For each grid level, participants should provide files such as:
 
@@ -170,7 +175,7 @@ To upload files:
 1. Navigate to the appropriate folder in your fork.
 2. Click `Add file`.
 3. Select `Upload files`.
-4. Drag and drop the prepared folder.
+4. Drag and drop the prepared folder (Do Not Compress the submission folder).
 5. Add a clear commit message.
 6. Click `Commit changes`.
 

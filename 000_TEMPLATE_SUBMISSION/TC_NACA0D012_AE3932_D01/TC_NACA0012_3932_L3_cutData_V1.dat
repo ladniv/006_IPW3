@@ -7,7 +7,7 @@
 #                  Y [m]:  Y-coordinate of the surface (clean for reference)
 #                  Z [m]:  Z-coordinate of the surface (clean for reference)
 #                 Cp [-]:  Pressure coefficient
-#            HTC [W/m2K]:  Convective Heat Transfer Coefficient
+#            HTC [W/m2K]:  Convective Heat Transfer Coefficient (on the rough surface)
 #               Beta [-]:  Collection efficiency
 #                 Ts [K]:  Surface temperature
 #                 FF [-]:  Freezing fraction
