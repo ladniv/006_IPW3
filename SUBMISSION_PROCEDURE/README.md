@@ -39,7 +39,6 @@ The repository includes:
 - `000_TEMPLATE_SUBMISSION`: template files and folder structure that participants should copy and rename for their own submission.
 - `HELPER_SCRIPTS`: helper scripts for preparing submission files.
 - `SUBMISSION_PROCEDURE`: instructions for submitting data through GitHub.
-- `POST_PROCESS_TOOLS`: planned tools for checking participant submission data.
 
 ---
 
