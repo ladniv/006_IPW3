@@ -137,10 +137,10 @@ PID_ORGNAME_SOLVERNAME/
 ├── TC_NACA0012_AE3932_D01/
 ├── TC_NACA0012_AE3933_D01/
 ├── TC_ONERAM6_D01/
-└── gridConvergence_V1.xlsx
+└── gridConvergence_D01_V1.xlsx
 ```
 
-The `gridConvergence_V1.xlsx` file is used for all grid-convergence-related quantities. Participants should fill in the requested values without changing the sheet names, column order, row order, or file structure.
+The `gridConvergence_D01_V1.xlsx` file is used for all grid-convergence-related quantities. Participants should fill in the requested values without changing the sheet names, column order, row order, or file structure.
 
 Each test-case folder contains Tecplot-formatted `.dat` files for cut data and ice-shape data. For each grid level, participants should provide files such as:
 
