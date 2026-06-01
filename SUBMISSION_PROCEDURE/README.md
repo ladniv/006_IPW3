@@ -208,6 +208,7 @@ On the pull request page:
 3. Add a clear title.
 4. Add a short description of the submission.
 5. Click `Create pull request`.
+6. In the right sidebar, find `Reviewers`, click the gear icon or reviewer selector, and assign `kzayni` as a reviewer.
 
 <img src="figures/CREATING_PR.png" alt="GitHub pull request creation page showing base repository, head repository, title, and description fields" width="900">
 
